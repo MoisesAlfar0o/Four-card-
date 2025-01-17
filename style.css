@@ -19,11 +19,12 @@
 
 
 body{
-    /* background: var(--bg-secondary); */
+    background: var(--bg-primary);
     box-sizing: border-box;;
     font-family: var(--ft-family);
     font-size: var(--ft-size);
     margin: 0;
+    padding: 0;
 }
 
 *,*::after,*::before{
@@ -47,20 +48,21 @@ body{
 }
 
 .header h1{
-    font-size: 30px;
+    font-style: normal;
+    font-size: 35px;
+    color: hsl(229, 6%, 66%);
     font-weight: 300;
-    color: var(--text-color);
+    color: var(--text-secondary);
 }
 
 .header h2{
    font-weight: var(--ft-wt-600);
-   font-size: 30px;
-   color: var(--text-color);
+   font-size: 35px;
+   color: var(--text-primary);
 }
 
 .header p{
-    padding: 15px 230px;
-    font-weight: var(--font-wght-400);
+    padding: 15px 230px; 
     color: var(--text-secondary);
 }
 
